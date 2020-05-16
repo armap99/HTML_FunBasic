@@ -1,0 +1,59 @@
+body{
+    background: rgb(26, 26, 26);
+    font-family: Verdana, Helvetica; /*establecer que tipo de letra va a utilizar*/
+}
+
+#container{
+    width: 100%; /*Tamaño que va a ocupar el contenedor*/
+    height: auto;
+    margin: 0px auto; /*Centar en la pagina*/
+    border: 1px solid white; /*Poner Borde */
+    /*padding: 10px; separacion del contenido con los bordes de arriba*/
+}
+
+header{
+    background: rgb(195, 9, 47);
+    height: 50px;/*ancho*/
+    /*width: 400px;*/ /*lago*/
+    text-align: center; /*alinear el texto en el centro*/
+    line-height: 50px;
+    color: white;/*color de las letras*/
+    border-bottom: 4px solid black;
+    margin-bottom: 100px;
+}
+
+nav ul li{
+    float: left; /*pner los elementos de la lista en forma horizontal*/
+    list-style: none; /*Quitar la viñetas*/
+    margin: 10px; /*separar los elementos de la lista*/
+    line-height: 15px;
+}
+
+.clearfix{
+    clear: both;
+}
+
+nav{
+    background: white;
+    height: 30px;    
+ 
+}
+
+#ContenedorLogin{
+    padding: 30px;
+    background: white;
+    width: 200px;
+    height: 200px;
+    margin: 0px auto;
+    border: 2px solid black;
+    border-radius: 20px;
+    margin-bottom: 150px;
+}
+
+footer{
+    background: black;
+    height: 50px;
+    text-align: center;
+    line-height: 50px; /*Centrar verticalmete la linea de texto*/
+    color: white;
+}

@@ -1,0 +1,29 @@
+#ContenedroAdmin{
+    background: rgb(26, 26, 26);
+}
+
+#TextoAdministador{
+    float: right; /*Posicion donde se va a colocar */
+    width: 80%;
+    background: white;
+    min-height: 550px; /*Poner un tamaño nimimo de alto muy importante*/
+}
+
+aside{
+    float: left;
+    width: calc(20% - 20px);
+    background: rgb(195, 9, 47);
+    min-height: 550px;
+    padding: 10px;/*Separacion por todos lados*/
+}
+
+.article{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgb(195, 9, 47);
+}
+
+.article h3{
+    font-size: 25px; /*Modificar tamaño de letra*/
+}

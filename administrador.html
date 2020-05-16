@@ -3,23 +3,54 @@
     <head>
         <meta charset="utf-8" /> <!--Definir el tipo de caracteres-->
         <title>Administración de Agencia</title> <!--Titulo de la pagina-->
+        <link rel="stylesheet" href="EstiloAdministrador.css">
     </head>
     <body>
-        <h1>Administracion</h1>
-        <h2>Inventario</h2>
-        <table border="1"> <!--Iniciar tabla con todos los bordes-->
-            <tr> <!--Fila-->
-                <td>Id</td> <!--Columna-->
-                <td>Descripcion</td>
-                <td>Cantidad</td>
-                <td>Precio</td>
-            </tr>  
-            <tr>
-                <td>0</td>
-                <td>Tsuru</td>
-                <td>10</td>
-                <td>20000</td>
-            </tr>  
-        </table>
+        <div id="ContenedroAdmin">
+            <header>
+                <h1>Administracion</h1><!--Encabeza de la pagina-->
+                <!-- <h2>Encabezado de segundo nivel</h2> -->
+                <!--h1 a h5 -->
+            </header>
+
+            <h2>Inventario</h2>
+
+            <table border="1"> <!--Iniciar tabla con todos los bordes-->
+                <tr> <!--Fila-->
+                    <td>Id</td> <!--Columna-->
+                    <td>Descripcion</td>
+                    <td>Cantidad</td>
+                    <td>Precio</td>
+                </tr>  
+                <tr>
+                    <td>0</td>
+                    <td>Tsuru</td>
+                    <td>10</td>
+                    <td>20000</td>
+                </tr>  
+            </table>
+
+            <section id="TextoAdministador">
+                <p>contenido de la pagina </p> <!--Para escribir los parrafos-->
+                se puede escribir contenido sin etiquetas <br/> <!--salto de linea-->
+                y con el salto de linea continia aqui el texto 
+                <hr> <!-- genera una linea que separa el texto-->
+
+                <article class="article">
+                    <h3>Vision</h3>
+                    <p>Muetra vison es</p>
+                </article>
+
+                <article class="article">
+                    <h3>Mision</h3>
+                    <p>Muetra mision es</p>
+                </article>
+            </section>
+
+            <aside> <!--Barra lateral de la paguina-->
+                <h2>Administrador</h2>
+                <a href="index.html"> <input type="button" value="Salir" /> </a>
+            </aside>
+        </div>
     </body>
 </html>
